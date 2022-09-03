@@ -42,11 +42,12 @@ const getPrices = async (amountInHuman) => {
   const decimals2 = await contractToken.decimals();
 
   // Convert the amount out - human readable
-  const aountOutHuman = ethers.utils
-    .formatUnits(amountsOut, decimals)
-    .toString();
+  const aountOutHuman = ethers.utils.formatUnits(
+    amountsOut[1].toString(),
+    decimals
+  );
 
-  console.log(amountsOut);
+  console.log(aountOutHuman);
 };
 
 const amountInHuman = '500';
