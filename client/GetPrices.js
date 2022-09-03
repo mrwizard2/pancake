@@ -1,4 +1,4 @@
-const { ethers } = require('ethers');
+const ethers = require('ethers');
 
 const {
   addressFactory,
@@ -14,4 +14,4 @@ const provider = new ethers.providers.JsonRpcProvider(
   'https://bsc-dataseed.binance.org/'
 );
 
-console.log('Your provider is: ' + provider);
+console.log(provider);

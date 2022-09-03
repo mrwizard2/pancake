@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ethers": "^5.7.0",
     "node-ethers": "^3.0.4"
   }
 }
