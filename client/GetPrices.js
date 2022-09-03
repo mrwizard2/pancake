@@ -1,5 +1,3 @@
-import { requireFontManifest } from 'next/dist/server/require';
-
 const ethers = require('ethers');
 
 const {
